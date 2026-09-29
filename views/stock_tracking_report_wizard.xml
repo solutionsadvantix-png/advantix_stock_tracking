@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_stock_movement_report_wizard_form" model="ir.ui.view">
+        <field name="name">stock.tracking.report.wizard.form</field>
+        <field name="model">stock.tracking.report.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Stock Movement Report">
+                <group>
+                    <group string="Date Range">
+                        <field name="from_date"/>
+                        <field name="to_date"/>
+                    </group>
+                    <group string="Location &amp; Lot Filters">
+                        <field name="location_id" options="{'no_create': True}"/>
+                        <field name="lot_id" options="{'no_create': True}"/>
+                    </group>
+                </group>
+                <group string="Product Filters">
+                    <group>
+                        <field name="category_id" options="{'no_create': True}"/>
+                    </group>
+                    <group>
+                        <field name="product_ids" widget="many2many_tags" options="{'no_create': True}"/>
+                    </group>
+                </group>
+                <footer>
+                    <button string="Export Excel (By Product)"
+                            type="object"
+                            name="action_generate_xlsx_all_products"
+                            class="btn-primary"
+                            icon="fa-file-excel-o"/>
+                    <button string="Cancel"
+                            class="btn-secondary"
+                            special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_stock_movement_report_wizard" model="ir.actions.act_window">
+        <field name="name">Stock Movement Report</field>
+        <field name="res_model">stock.tracking.report.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="target">new</field>
+    </record>
+
+    <menuitem id="menu_balanced_stock_report"
+              name="Stock Movement Report"
+              action="action_stock_movement_report_wizard"
+              parent="stock.menu_warehouse_report"
+              sequence="200"/>
+
+</odoo>
