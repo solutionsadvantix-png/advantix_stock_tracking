@@ -4,7 +4,7 @@
     'version': '17.0.1.0.0',
     'category': 'Inventory/Reporting',
     'author': 'Advantix Solutions',
-    'license': 'OPL-1',
+    'license': 'LGPL-1',
     'price': 26.30,
     'currency': 'EUR',
     'depends': [
