@@ -4,7 +4,7 @@
     'version': '19.0.1.0.0',
     'category': 'Inventory/Reporting',
     'author': 'Advantix Solutions',
-    'license': 'LGPL-3-1',
+    'license': 'LGPL-3',
     'price': 0.00,
     'currency': 'EUR',
     'depends': [
