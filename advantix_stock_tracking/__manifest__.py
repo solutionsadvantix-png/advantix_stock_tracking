@@ -5,7 +5,7 @@
     'category': 'Inventory/Reporting',
     'author': 'Advantix Solutions',
     'license': 'LGPL-1',
-    'price': 26.30,
+    'price': 0.0,
     'currency': 'EUR',
     'depends': [
         'base',
