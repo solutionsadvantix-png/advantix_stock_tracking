@@ -1,11 +1,11 @@
 {
-    'name': 'Stock Movement & Tracking Report',
-    'summary': 'Advanced Stock Movement Audit Report with Dynamic Opening Balance and Excel XLSX Export',
+    'name': 'Stock Movement Report, Inventory Balance & Tracking',
+    'summary': 'Advanced Stock Movement Audit Report with Dynamic Opening Balance and Excel XLSX Export. Stock movement report, inventory balance, and advanced stock tracking',
     'version': '19.0.1.0.0',
     'category': 'Inventory/Reporting',
     'author': 'Advantix Solutions',
-    'license': 'LGPL-3',
-    'price': 0.00,
+    'license': 'OPL-1',
+    'price': 26.35,
     'currency': 'EUR',
     'depends': [
         'base',
