@@ -5,7 +5,7 @@
     'category': 'Inventory/Reporting',
     'author': 'Advantix Solutions',
     'license': 'OPL-1',
-    'price': 17.75,
+    'price': 17.55,
     'currency': 'EUR',
     'depends': [
         'base',
