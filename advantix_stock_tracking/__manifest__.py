@@ -1,5 +1,5 @@
 {
-    'name': 'Stock Movement Report, Inventory Balance & Tracking Report, Stock Balance Report',
+    'name': 'Stock Movement Report, Inventory Balance & Stock Tracking Report, Stock Balance Report',
     'summary': 'Advanced Stock Movement Audit Report with Dynamic Opening Balance and Excel XLSX Export. Stock movement report, inventory balance, and advanced stock tracking',
     'version': '17.0.1.0.0',
     'category': 'Inventory/Reporting',
